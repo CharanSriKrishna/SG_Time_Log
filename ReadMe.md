@@ -11,3 +11,10 @@
 - update the hook in info.yml 
 - called the hook in the scene operations.py file in python>tk_multi_workfiles
 - added the pynput library
+
+## How This works 
+
+- Every time when a new file or file open is clicked through the DCC then a new time log entry is created
+- When file save or CTRL + S is pressed the time log is updated (make sure you save file before publishing) 
+- This works based on two conditions active window and mouse and keyboard movements 
+- One use case where it doesnt work is when two tasks are opened at the same time on the same tool ( eg task A and task B are opened using Maya )
